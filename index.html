@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Juego adivina el número</h1>
+    <p>Hemos seleccionado un número aleatorio entre 1 y 100. Fijate si lo puedes adivinar.</p>
+    <label for="guessfield">Adivina el número: </label>
+    <input type="number" id="guessfield" min="1" max="100" required class="number">
+    <input type="button" value="Enviar Respuesta" class="button">
+    <p id="tries">Intentos: </p>
+    <p id="result"></p>
+    <p id="highorlow"></p>
+</body>
+</html>
